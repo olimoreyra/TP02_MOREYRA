@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #f5f5dc; 
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+header {
+    text-align: left; 
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700; 
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #800020; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20;
+    color: #333;
+}
+
+button {
+    background-color: #f5f5dc; 
+    color: #800020; 
+    border: 2px solid #800020; 
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #800020; 
+    color: #f5f5dc; 
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 70px; 
+    font-size: 30px;
+    width: 35%; 
+    text-align: left; 
+    color: #800020; 
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 10px; 
+    font-size: 16px; 
+    line-height: 25px;
+    width: 33%; 
+    text-align: left; 
+    color: #555;
+}
+
+.betular {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 40px;
+    width: 100%; 
+}
+
+.betular > div {
+    width: 40%; 
+    margin-right: 30px; 
+    margin-bottom: 0%
+}
+
+.betular img {
+    width: 100%; 
+    border: 3px solid black; 
+    transition: filter 0.3s ease; 
+}
+
+.betular img:hover {
+    filter: brightness(70%); 
+}
+
+.betularx2 {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 40px;
+    width: 100%; 
+}
+
+.betularx2 > div {
+    width: 40%; 
+    margin-right: 30px; 
+    margin-bottom: 20%
+}
+
+.betularx2 img {
+    width: 100%;
+    border: 3px solid black; 
+    transition: filter 0.3s ease; 
+}
+
+.betularx2 img:hover {
+    filter: brightness(70%); 
+}
+
+
+[src="imagenes/imagen-principal.png"] {
+    width: 70%;
+    display: block;
+    transition: all 0s 0s linear;
+    margin: auto;
+    margin-top: 70px;
+
+}
+
+[src="imagenes/imagen-principal.png"]:hover {
+
+    filter: grayscale(100%);
+
+}
+
+
